@@ -1,2 +1,2 @@
 # suryaudaycharity_website
-read the name bitch
+read the repo name
