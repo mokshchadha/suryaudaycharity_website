@@ -1,0 +1,47 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--color-primary-variant);
+    transition: var(--transition);
+    margin-top: 1.68rem;
+}
+
+.logo-image {
+    width: 7rem;
+    height: 7rem;
+    margin:1rem;
+    margin-left: 2.5rem;
+    border-radius:1rem;
+}
+
+.sunrise {
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #ffd11a;
+    margin-left: 0.5rem;
+}
+
+.title{
+    margin-top:1rem;
+    color:var(--color-white)
+}
+
+.charity-name{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+ a {
+    color: var(--color-white);
+    transition: var(--transition);
+}
+
+a>span {
+    margin-left: 0.5rem;
+}
+
+.contact-details-header {
+ margin: 2rem;
+ margin-right: 7rem;
+}

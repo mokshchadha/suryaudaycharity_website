@@ -1,0 +1,15 @@
+
+
+.image_card {
+    height: 25rem;
+    width: 32rem;
+    margin: 3rem;
+
+    border: 0.5rem solid var(--color-primary-variant);
+    border-radius:2rem
+
+}
+
+.swiper_pages{
+    
+}

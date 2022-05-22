@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    background:var(--color-text);
+    position: fixed;
+    width: 100%;
+    top:0;
+    margin-right: 50rem;
+}
+
+.navbar > a{
+    padding: 0.25rem;
+    margin-right: 3rem;
+    border-radius: 0.5em;
+}
+
+.navbar >a:hover {
+    background: var(--color-bg-variant);
+    color:var(--color-white)
+}
