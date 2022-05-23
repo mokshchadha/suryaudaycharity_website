@@ -5,16 +5,16 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import "./carousel.css";
-import IMAGES from "./imageData";
+import { GALLERY_IMAGES } from "./imageData";
 import ImageCard from "./ImageCard";
 
 export default function Carousel() {
-  const pagination = {
-    clickable: true,
-    renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + (index + 1) + "</span>";
-    },
-  };
+  // const pagination = {
+  //   clickable: true,
+  //   renderBullet: function (index, className) {
+  //     return '<span class="' + className + '">' + (index + 1) + "</span>";
+  //   },
+  // };
   return (
     <div id="gallery">
       <h3>Gallery</h3>
@@ -24,12 +24,11 @@ export default function Carousel() {
         pagination={{ clickable: true }}
         modules={[Pagination]}
         className="mySwiper"
-        t
         loop={true}
       >
-        {IMAGES.map((i) => (
+        {GALLERY_IMAGES.map((i) => (
           <SwiperSlide>
-            <ImageCard src={i.src} alt={i.alt} />
+            <ImageCard src={i.src} alt={i.alt} classN={"image_card"} />
           </SwiperSlide>
         ))}
       </Swiper>

@@ -4,12 +4,15 @@
     height: 25rem;
     width: 32rem;
     margin: 3rem;
-
     border: 0.5rem solid var(--color-primary-variant);
     border-radius:2rem
 
 }
 
-.swiper_pages{
-    
+.slide_card {
+    height: 50vh;
+    width: 95%;
+    margin: 3rem;
+    border: 0.35rem solid var(--color-primary-variant);
+    border-radius:1.5rem
 }

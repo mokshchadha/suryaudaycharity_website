@@ -6,7 +6,7 @@ const IMG5 = require("../../assets/images/image5.jpeg");
 const IMG6 = require("../../assets/images/image6.jpeg");
 const IMG7 = require("../../assets/images/image7.jpeg");
 
-const IMAGES = [
+export const GALLERY_IMAGES = [
   { src: IMG1, alt: "" },
   { src: IMG2, alt: "" },
   { src: IMG3, alt: "" },
@@ -16,4 +16,9 @@ const IMAGES = [
   { src: IMG6, alt: "" },
 ];
 
-export default IMAGES;
+export const SLIDESHOW = [
+  { src: IMG2, alt: "" },
+  { src: IMG4, alt: "" },
+  { src: IMG5, alt: "" },
+  { src: IMG6, alt: "" },
+];

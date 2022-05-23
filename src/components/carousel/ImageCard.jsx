@@ -1,10 +1,10 @@
 import React from "react";
 import "./carousel.css";
 
-export const ImageCard = ({ src, alt }) => {
+export const ImageCard = ({ src, alt, classN }) => {
   return (
     <div className="container">
-      <img className="image_card" src={src} alt={alt} />
+      <img className={classN} src={src} alt={alt} />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
-import Carousel from "./components/carousel/Carousel";
+import Gallery from "./components/carousel/Gallery";
+import SlideShow from "./components/carousel/Slideshow";
 import Header from "./components/header/Header";
 import Mission from "./components/mission/Mission";
 import About from "./components/about/About";
@@ -10,9 +11,10 @@ export const App = () => {
     <div>
       <Header />
       <Nav />
+      <SlideShow />
       <About />
       <Mission />
-      <Carousel />
+      <Gallery />
     </div>
   );
 };
