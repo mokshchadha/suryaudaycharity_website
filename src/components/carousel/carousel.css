@@ -10,8 +10,8 @@
 }
 
 .slide_card {
-    height: 50vh;
-    width: 95%;
+    height: 55vh;
+    width: 90%;
     margin: 3rem;
     border: 0.35rem solid var(--color-primary-variant);
     border-radius:1.5rem

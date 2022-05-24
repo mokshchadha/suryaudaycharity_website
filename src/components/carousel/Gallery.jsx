@@ -19,7 +19,7 @@ export default function Carousel() {
     <div id="gallery">
       <h1 className="gallery__title">Gallery</h1>
       <Swiper
-        slidesPerView={4}
+        slidesPerView={3}
         spaceBetween={30}
         pagination={{ clickable: true }}
         modules={[Pagination]}
