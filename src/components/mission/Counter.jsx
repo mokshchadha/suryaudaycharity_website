@@ -7,7 +7,7 @@ import "./mission.css";
 export const Counter = ({
   finalCount,
   title,
-  duration = 2,
+  duration = 1,
   startCount = 0,
 }) => {
   return (
