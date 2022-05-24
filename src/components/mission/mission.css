@@ -1,0 +1,52 @@
+#mission{
+    background: var(--color-primary-variant);
+    padding: 1rem;
+    color:var(--color-white);
+    border-radius:2rem;
+    margin-top: 3rem;
+}
+
+.counter_bg {
+    margin-top: 1rem;
+   height: 13rem;
+   width: 13rem;
+   background:var(--color-primary);
+   color: var(--color-white);
+   padding:1rem;
+   text-align: center;
+   border-radius: 5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.counter_title {
+ margin-top: 1.5rem;
+}
+
+.counter {
+    font-size: 4rem;
+}
+
+.mission_title {
+    text-align: center;
+}
+
+.mission_image {
+    border-radius: 1rem;
+    border: 0.5rem solid var(--color-bg);
+     height: 25rem;
+    width: 35rem; 
+    margin-left: 3rem;
+}
+
+.misson_paragraph {
+    margin: 2rem;
+    padding:3rem;
+    font-size: larger;
+
+}
+
+.counter__row {
+    margin-bottom: 3rem;
+}

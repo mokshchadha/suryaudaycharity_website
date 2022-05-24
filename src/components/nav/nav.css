@@ -11,12 +11,13 @@
 }
 
 .navbar > a{
-    padding: 0.25rem;
+    padding: .25rem;
     margin-right: 3rem;
     border-radius: 0.5em;
 }
 
 .navbar >a:hover {
+    padding: 1rem;
     background: var(--color-bg-variant);
     color:var(--color-white)
 }

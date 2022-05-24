@@ -17,7 +17,7 @@ export default function Carousel() {
   // };
   return (
     <div id="gallery">
-      <h3>Gallery</h3>
+      <h1 className="gallery__title">Gallery</h1>
       <Swiper
         slidesPerView={4}
         spaceBetween={30}

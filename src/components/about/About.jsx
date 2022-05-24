@@ -2,7 +2,7 @@ import React from "react";
 
 import "./about.css";
 const ABOUT_IMAGE1 = require("../../assets/images/About_IMG.png");
-const ABOUT_IMAGE2 = require("../../assets/images/About2_IMG.png");
+//const ABOUT_IMAGE2 = require("../../assets/images/About2_IMG.png");
 
 export const About = () => {
   return (
@@ -28,7 +28,7 @@ export const About = () => {
           </p>
         </div>
         <img className="about_image" src={ABOUT_IMAGE1} alt={""} />
-        <div className="about_p">
+        {/* <div className="about_p">
           <h3 className="about_sub_heading">Background History</h3>
           <p className="background">
             When Surya Uday was incorporated, a Field Survey was done by us,
@@ -49,7 +49,7 @@ export const About = () => {
             society, survive dignifiedly and lead a better life.
           </p>
         </div>
-        <img className="about_image" src={ABOUT_IMAGE2} alt={""} />
+        <img className="about_image" src={ABOUT_IMAGE2} alt={""} /> */}
       </div>
     </div>
   );

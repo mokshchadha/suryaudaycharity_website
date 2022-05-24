@@ -5,6 +5,8 @@ import Header from "./components/header/Header";
 import Mission from "./components/mission/Mission";
 import About from "./components/about/About";
 import Nav from "./components/nav/Nav";
+import Footer from "./components/footer/Footer";
+import Contact from "./components/contact/Contact";
 
 export const App = () => {
   return (
@@ -15,6 +17,8 @@ export const App = () => {
       <About />
       <Mission />
       <Gallery />
+      <Contact />
+      <Footer />
     </div>
   );
 };
