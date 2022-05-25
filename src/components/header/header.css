@@ -4,7 +4,7 @@
     justify-content: space-between;
     background-color: var(--color-bg);
     transition: var(--transition);
-    margin-top: 1.68rem;
+    margin-top: 5rem;
 }
 
 .logo-image {
@@ -46,4 +46,24 @@
 .header__link:hover {
     border:0.1rem solid var(--color-text);
     border-radius: 0.2rem;
+}
+
+.dontate-us-header{
+    margin-top: 2.75rem;
+}
+
+.dontate-us-link {
+    margin-right: 10rem;
+    padding: 1rem;
+    font-size: larger;
+    background-color: var(--color-sunrise);
+    color:var(--color-white);
+    border-radius: 0.35rem;
+    border:0.25rem   var(--color-primary-variant)
+}
+
+.dontate-us-link:hover {
+    color:var(--color-sunrise);
+    background: var(--color-primary-variant);
+    border:0.25rem solid var(--color-sunrise);
 }

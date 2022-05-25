@@ -4,14 +4,38 @@ import { IoMdCall } from "react-icons/io";
 
 import { NAV_LINKS } from "./data";
 
+import { HiMail } from "react-icons/hi";
+import { BsFacebook } from "react-icons/bs";
+
 export const Nav = () => {
   return (
     <div id="nav" className="navbar">
-      <div className="navbar__phone">
-        <span style={{ marginRight: "0.5rem" }}>
-          <IoMdCall />
-        </span>
-        <span>{"+91 9816900199 | 9816708195"}</span>
+      <div>
+        <div className="navbar__contact-details-header">
+          <div className="navbar__phone">
+            <span>
+              <IoMdCall />
+            </span>
+            <span>{"+91 9816900199 | 9816708195"}</span>
+          </div>
+          <div>
+            <a className="navbar__phone" href="mailto:suryauday21@gmail.com">
+              <span>
+                <HiMail className="navbar__icon" />
+              </span>
+            </a>
+          </div>
+          <div>
+            <a
+              className="navbar__phone"
+              href="https://www.facebook.com/SuryaUdayCT/"
+            >
+              <span>
+                <BsFacebook className="navbar__icon" />
+              </span>
+            </a>
+          </div>
+        </div>
       </div>
       <div className="nav__links">
         {NAV_LINKS.map((e, i) => (
