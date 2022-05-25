@@ -4,6 +4,7 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
+ 
 }
 
 footer a {
@@ -16,6 +17,13 @@ footer a {
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
+    color:var(--color-white)
+}
+
+.footer__logo a:hover {
+    border: 0.05rem solid var(--color-white);
+    color:var(--color-white);
+    background: var(--color-white);
 }
 
 .permalinks {
@@ -36,7 +44,7 @@ footer a {
 
 .footer__socials a {
     background: var(--color-bg);
-    color:var(--color-primary);
+    color:var(--color-text);
     padding: 0.8rem;
     border-radius:0.7rem;
     display: flex;
@@ -45,21 +53,34 @@ footer a {
 
 .footer__socials a:hover{
     background: transparent;
-    background: var(--color-bg-variant);
+    background: var(--color-text);
     border-color: var(--color-bg);
+    color:var(--color-white)
 }
 
 .footer__copyright {
     margin-bottom: 4rem;
-    color:var(--color-text);
+    color:var(--color-white);
 }
 
 .permalinks  a:hover{
     background: transparent;
     padding: .5rem;
     border-radius: 0.5rem;
-    background: var(--color-bg-variant);
+    background: var(--color-white);
     border-color: var(--color-bg);
+    color:var(--color-text)
+}
+
+.charity__name {
+    padding: 0.25rem;
+    border:0.2rem solid var(--color-text)
+}
+
+.charity__name:hover {
+    color: var(--color-white);
+    border:0.2rem solid var(--color-white);
+    border-radius: 0.50rem;
 }
 
 

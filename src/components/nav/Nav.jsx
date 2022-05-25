@@ -1,22 +1,32 @@
 import React from "react";
 import "./nav.css";
-import { AiFillHome } from "react-icons/ai";
+import { IoMdCall } from "react-icons/io";
 
-const TOP = "#";
+import { NAV_LINKS } from "./data";
 
 export const Nav = () => {
   return (
     <div id="nav" className="navbar">
-      <a href={TOP}>
-        <AiFillHome />
-      </a>
-      <a href="#about">About</a>
-      <a href="#mission">Mission</a>
-      <a href="#events">Our events</a>
-      <a href="#joinus">Join Us</a>
-      <a href="#contact">Contact Us</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#donate">Donate Us</a>
+      <div className="navbar__phone">
+        <span style={{ marginRight: "0.5rem" }}>
+          <IoMdCall />
+        </span>
+        <span>{"+91 9816900199 | 9816708195"}</span>
+      </div>
+      <div className="nav__links">
+        {NAV_LINKS.map((e, i) => (
+          <a
+            key={i}
+            className="nav__anchor"
+            href={e.link}
+            alt={""}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {e.name}
+          </a>
+        ))}
+      </div>
     </div>
   );
 };

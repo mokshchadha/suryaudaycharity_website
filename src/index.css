@@ -10,13 +10,15 @@
 }
 
 :root {
-    --color-bg: #eddcd9 ;
+    --color-bg: #fff ;
     --color-bg-variant:  #52ab98;
-    --color-primary: #303179;
-    --color-primary-variant: rgb(48, 49, 121, 0.4);
+    --color-primary: #003257;
+    --color-primary-variant: rgb(230, 230, 230, 0.5);
     --color-white: #fff;
-    --color-text:#303179;
+    --color-text:#003257;
     --color-light: rgba(255, 255, 255, 0.5);
+
+    --color-sunrise: #ffd11a;
 
     --container-width-lg: 95%;
     --container-width-md: 86%;
@@ -56,7 +58,7 @@ h5 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
 }
 
 section {

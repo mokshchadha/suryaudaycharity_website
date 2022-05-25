@@ -3,7 +3,6 @@ import "./header.css";
 import { HiMail } from "react-icons/hi";
 import { BsFacebook } from "react-icons/bs";
 import { WiSunrise } from "react-icons/wi";
-// import { IoMdCall } from "react-icons/io";
 
 const LOGO = require("../../assets/clipart/logo.jpeg");
 
@@ -13,21 +12,15 @@ export const Header = () => {
       <div className="header-container">
         <img className="logo-image" src={LOGO} alt={""} />
         <div className="charity-name">
-          <h1 className="title">Suryauday Charitable trust</h1>
+          <h1 className="title">Suryauday Charitable Trust</h1>
           <div className="row">
             <h2 className="subtitle">अंधेरे से उजाले की ओर</h2>
             <WiSunrise className="sunrise" />
           </div>
         </div>
         <div className="contact-details-header">
-          {/* <div className="row">
-            <span style={{ marginRight: "0.5rem" }}>
-              <IoMdCall />
-            </span>
-            <span>{"+91 9816900199 | 9816708195"}</span>
-          </div> */}
-          <div>
-            <a href="mailto:suryauday21@gmail.com">
+          <div style={{ marginBottom: "0.5rem" }}>
+            <a className="header__link" href="mailto:suryauday21@gmail.com">
               <span>
                 <HiMail className="mail-icon" />
               </span>
@@ -35,7 +28,10 @@ export const Header = () => {
             </a>
           </div>
           <div>
-            <a href="https://www.facebook.com/SuryaUdayCT/">
+            <a
+              className="header__link"
+              href="https://www.facebook.com/SuryaUdayCT/"
+            >
               <span>
                 <BsFacebook />
               </span>

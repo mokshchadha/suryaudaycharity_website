@@ -7,9 +7,9 @@ export const Footer = () => {
   return (
     <footer>
       <a href={HOME} className="footer__logo">
-        <div className="charity-name">
-          <h1 className="title">Suryauday Charitable trust</h1>
-          <h4 className="title">अंधेरे से उजाले की ओर</h4>
+        <div className="charity__name">
+          <h1>Suryauday Charitable trust</h1>
+          <h4>अंधेरे से उजाले की ओर</h4>
         </div>
       </a>
       <ul className="permalinks">
@@ -42,7 +42,10 @@ export const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Moksh Chadha. All rights reserved</small>
+        <small>
+          Ward No. 04, Banroru Road, Tikka Lehsar, Yol Cantt, Tehsil
+          Dharamshala, Dharamshala, HIMACHAL PRADESH
+        </small>
       </div>
     </footer>
   );

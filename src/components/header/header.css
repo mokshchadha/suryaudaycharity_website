@@ -24,7 +24,7 @@
 
 .title{
     margin-top:1rem;
-    color:var(--color-white)
+    color:var(--color-text)
 }
 
 .charity-name{
@@ -44,4 +44,14 @@ a>span {
 .contact-details-header {
  margin: 2rem;
  margin-right: 7rem;
+}
+
+.header__link {
+    color:var(--color-text);
+    padding:0.25rem
+}
+
+.header__link:hover {
+    border:0.1rem solid var(--color-text);
+    border-radius: 0.2rem;
 }

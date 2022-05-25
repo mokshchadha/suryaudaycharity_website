@@ -1,7 +1,7 @@
 #mission{
     background: var(--color-primary-variant);
     padding: 1rem;
-    color:var(--color-white);
+    color:var(--color-text);
     margin-top: 3rem;
     padding-bottom: 3rem;
 }
