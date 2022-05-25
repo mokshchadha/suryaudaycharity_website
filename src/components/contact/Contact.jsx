@@ -23,7 +23,7 @@ export const Contact = () => {
           />
           <ContactOption
             icon={<FaFacebookF className="contact__option-icon" />}
-            title={"Linkedin"}
+            title={"Facebook"}
             subTitle={"@SuryaUdayCT"}
             link={"https://www.facebook.com/SuryaUdayCT/"}
             linkTitle={"Connect on Facebook"}
