@@ -15,14 +15,7 @@ export const Nav = () => {
       </div>
       <div className="nav__links">
         {NAV_LINKS.map((e, i) => (
-          <a
-            key={i}
-            className="nav__anchor"
-            href={e.link}
-            alt={""}
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a key={i} className="nav__anchor" href={e.link} alt={""}>
             {e.name}
           </a>
         ))}

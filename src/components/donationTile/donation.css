@@ -1,0 +1,32 @@
+#donation_tile{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    background: var(--color-primary-variant);
+}
+
+.donation__header{
+    text-align: center;
+    color:var(--color-text);
+    margin-bottom: 2rem;
+}
+
+.donate__button{
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: larger;
+    padding: 1rem;
+    margin-top: 3rem;
+    background-color: var(--color-sunrise);
+    color:var(--color-white);
+    border-radius: 0.35rem;
+    border:0.35rem   var(--color-primary-variant)
+}
+
+
+.donate__button:hover{
+    color:var(--color-sunrise);
+    background: var(--color-primary-variant);
+    border:0.35rem solid var(--color-sunrise);
+}

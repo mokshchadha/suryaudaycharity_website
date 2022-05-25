@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: var(--color-primary-variant);
+    background-color: var(--color-bg);
     transition: var(--transition);
     margin-top: 1.68rem;
 }
@@ -24,21 +24,12 @@
 
 .title{
     margin-top:1rem;
-    color:var(--color-text)
+    color:var(--color-primary)
 }
 
 .charity-name{
     margin-left: 1rem;
     margin-right: 1rem;
-}
-
- a {
-    color: var(--color-white);
-    transition: var(--transition);
-}
-
-a>span {
-    margin-left: 0.5rem;
 }
 
 .contact-details-header {
@@ -47,7 +38,8 @@ a>span {
 }
 
 .header__link {
-    color:var(--color-text);
+    font-size: small;
+    color:var(--color-primary);
     padding:0.25rem
 }
 

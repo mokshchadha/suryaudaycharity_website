@@ -33,6 +33,7 @@
 
 .mission_title {
     text-align: auto;
+    color:var(--color-heading)
 }
 
 .mission_image {

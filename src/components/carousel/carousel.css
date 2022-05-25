@@ -1,18 +1,19 @@
 
 
 .image_card {
-    height: 25rem;
-    width: 32rem;
-    margin: 2rem;
+    height: 18rem;
+    width: 25rem;
+    margin: 1rem;
     border: 0.05rem solid var(--color-primary-variant);
-    border-radius:.25rem
+    border-radius:.25rem;
+    padding-bottom:1.5rem
 
 }
 
 .slide_card {
     height: 55vh;
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 0.5rem;
     margin-bottom: 3rem;
     border: 0.05rem solid var(--color-primary-variant);
     border-radius:0.25rem
@@ -21,6 +22,7 @@
 .gallery__title{
     margin-top: 5rem;
     text-align: center;
+    color:var(--color-heading)
 }
 
 

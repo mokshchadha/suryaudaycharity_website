@@ -15,8 +15,10 @@
     --color-primary: #003257;
     --color-primary-variant: rgb(230, 230, 230, 0.5);
     --color-white: #fff;
-    --color-text:#003257;
+    --color-text:#707070;
     --color-light: rgba(255, 255, 255, 0.5);
+
+    --color-heading:#27699A;
 
     --color-sunrise: #ffd11a;
 

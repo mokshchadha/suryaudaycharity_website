@@ -7,6 +7,8 @@ import About from "./components/about/About";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import Contact from "./components/contact/Contact";
+import Projects from "./components/projects/Projects";
+import DonationTile from "./components/donationTile/DonationTile";
 
 export const App = () => {
   return (
@@ -16,6 +18,8 @@ export const App = () => {
       <SlideShow />
       <About />
       <Mission />
+      <Projects />
+      <DonationTile />
       <Gallery />
       <Contact />
       <Footer />

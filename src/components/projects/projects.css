@@ -1,0 +1,36 @@
+.project__header{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color:var(--color-heading)
+}
+
+.project__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 2rem;
+}
+
+.project__image{
+    height: 20rem;
+    width: 35rem;
+    margin-top:0.25rem
+}
+
+
+.project__text_1{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.project__text_2 {
+    margin-right: 5rem;
+}
+
+.project__subtitle {
+    text-align: center;
+    margin-bottom: 2rem;
+}
