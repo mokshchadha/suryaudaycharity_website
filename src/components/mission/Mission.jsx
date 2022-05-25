@@ -3,15 +3,12 @@ import "./mission.css";
 import { Counter } from "./Counter";
 import { COUNTER_DATA } from "./data";
 
-const ABOUT_IMAGE2 = require("../../assets/images/About2_IMG.png");
-
 export const Mission = () => {
   return (
     <div id="mission">
-      <h1 className="mission_title">Mission</h1>
-      <div className="row">
-        <img src={ABOUT_IMAGE2} alt={""} className="mission_image" />
-        <div className="mission_text">
+      <div className="mission__grid">
+        <div className="mission_content">
+          <h1 className="mission_title"> Our Mission</h1>
           <p className="misson_paragraph">
             Our Mission is to improve the lives of children with special needs
             by giving them the opportunity to learn and function on their own
@@ -24,15 +21,15 @@ export const Mission = () => {
             Handicapped).
           </p>
         </div>
-      </div>
-      <div className="row  counter__row">
-        {COUNTER_DATA.map((e) => (
-          <Counter
-            finalCount={e.finalCount}
-            title={e.title}
-            startCount={e.startCount}
-          />
-        ))}
+        <div className="row">
+          {COUNTER_DATA.map((e) => (
+            <Counter
+              finalCount={e.finalCount}
+              title={e.title}
+              startCount={e.startCount}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

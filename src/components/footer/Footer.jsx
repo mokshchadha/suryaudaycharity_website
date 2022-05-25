@@ -36,11 +36,8 @@ export const Footer = () => {
         <a href="https://www.facebook.com/SuryaUdayCT/">
           <FaFacebookF />
         </a>
-        <a href="https://twitter.com/chadha_moksh">
+        <a href="https://twitter.com/">
           <FaTwitterSquare />
-        </a>
-        <a href="https://www.instagram.com/mokshrc">
-          <FaInstagram />
         </a>
       </div>
 

@@ -28,13 +28,13 @@ export const Contact = () => {
             link={"https://www.facebook.com/SuryaUdayCT/"}
             linkTitle={"Connect on Facebook"}
           />
-          <ContactOption
+          {/* <ContactOption
             icon={<FaWhatsapp className="contact__option-icon" />}
             title={"Whatsapp"}
             subTitle={""}
             link={"https://api.whatsapp.com/send/?phone=9816708195"}
             linkTitle={"Send a message"}
-          />
+          /> */}
         </div>
         <EmailForm />
       </div>

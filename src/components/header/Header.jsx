@@ -20,12 +20,12 @@ export const Header = () => {
           </div>
         </div>
         <div className="contact-details-header">
-          <div className="row">
+          {/* <div className="row">
             <span style={{ marginRight: "0.5rem" }}>
               <IoMdCall />
             </span>
             <span>{"+91 9816900199 | 9816708195"}</span>
-          </div>
+          </div> */}
           <div>
             <a href="mailto:suryauday21@gmail.com">
               <span>

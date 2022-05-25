@@ -7,7 +7,7 @@ const ABOUT_IMAGE1 = require("../../assets/images/About_IMG.png");
 export const About = () => {
   return (
     <div id="about">
-      <h1 className="about_heading">About</h1>
+      {/* <h1 className="about_heading">About</h1>
       <div className="about_grid">
         <div className="about_p">
           <h3 className="about_sub_heading">Who are we ?</h3>
@@ -27,8 +27,8 @@ export const About = () => {
             areas, Washrooms and so on.
           </p>
         </div>
-        <img className="about_image" src={ABOUT_IMAGE1} alt={""} />
-        {/* <div className="about_p">
+        <img className="about_image" src={ABOUT_IMAGE1} alt={""} /> */}
+      {/* <div className="about_p">
           <h3 className="about_sub_heading">Background History</h3>
           <p className="background">
             When Surya Uday was incorporated, a Field Survey was done by us,
@@ -50,7 +50,7 @@ export const About = () => {
           </p>
         </div>
         <img className="about_image" src={ABOUT_IMAGE2} alt={""} /> */}
-      </div>
+      {/* </div> */}
     </div>
   );
 };

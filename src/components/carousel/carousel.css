@@ -3,21 +3,25 @@
 .image_card {
     height: 25rem;
     width: 32rem;
-    margin: 3rem;
-    border: 0.5rem solid var(--color-primary-variant);
-    border-radius:2rem
+    margin: 2rem;
+    border: 0.05rem solid var(--color-primary-variant);
+    border-radius:.25rem
 
 }
 
 .slide_card {
     height: 55vh;
-    width: 90%;
-    margin: 3rem;
-    border: 0.35rem solid var(--color-primary-variant);
-    border-radius:1.5rem
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 0.05rem solid var(--color-primary-variant);
+    border-radius:0.25rem
 }
 
 .gallery__title{
     margin-top: 5rem;
     text-align: center;
 }
+
+
+ 
