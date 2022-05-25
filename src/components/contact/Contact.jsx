@@ -5,7 +5,7 @@ import ContactOption from "./ContactOption";
 import EmailForm from "./EmailForm";
 
 import { MdOutlineEmail } from "react-icons/md";
-import { FaFacebookF, FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
 
 export const Contact = () => {
   return (

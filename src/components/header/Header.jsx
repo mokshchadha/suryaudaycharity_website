@@ -3,7 +3,7 @@ import "./header.css";
 import { HiMail } from "react-icons/hi";
 import { BsFacebook } from "react-icons/bs";
 import { WiSunrise } from "react-icons/wi";
-import { IoMdCall } from "react-icons/io";
+// import { IoMdCall } from "react-icons/io";
 
 const LOGO = require("../../assets/clipart/logo.jpeg");
 

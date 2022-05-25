@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./about.css";
-const ABOUT_IMAGE1 = require("../../assets/images/About_IMG.png");
+// const ABOUT_IMAGE1 = require("../../assets/images/About_IMG.png");
 //const ABOUT_IMAGE2 = require("../../assets/images/About2_IMG.png");
 
 export const About = () => {
