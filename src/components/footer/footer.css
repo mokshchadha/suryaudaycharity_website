@@ -74,12 +74,12 @@ footer a {
 
 .charity__name {
     padding: 0.25rem;
-    border:0.2rem solid var(--color-text)
+    border: 0.05rem solid var(--color-primary)
 }
 
 .charity__name:hover {
     color: var(--color-white);
-    border:0.2rem solid var(--color-white);
+    border:0.05rem solid var(--color-white);
     border-radius: 0.50rem;
 }
 
