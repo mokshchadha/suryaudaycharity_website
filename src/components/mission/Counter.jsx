@@ -11,9 +11,9 @@ export const Counter = ({
   startCount = 0,
 }) => {
   return (
-    <div className="counter_bg">
+    <div className="counter">
       <div className="counter_title">{title}</div>
-      <div className="counter">
+      <div className="counter_bg">
         <VisibilitySensor>
           {({ isVisible }) => (
             <div>
