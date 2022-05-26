@@ -53,6 +53,12 @@
     margin-bottom: 3rem;
 }
 
+.stats_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .mission_content {
  padding-left: 1rem;
 }
@@ -61,4 +67,15 @@
     display: grid;
     grid-template-columns: 4fr 4fr;
     grid-gap: 1em;
+}
+
+@media screen and (max-width:800px) {
+    .stats_section {
+        display: none;
+    }
+
+    .mission__grid {
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -21,7 +21,7 @@ export const Mission = () => {
             Handicapped).
           </p>
         </div>
-        <div className="row">
+        <div className="stats_section">
           {COUNTER_DATA.map((e) => (
             <Counter
               finalCount={e.finalCount}
