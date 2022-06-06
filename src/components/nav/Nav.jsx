@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./nav.css";
 import { IoMdCall } from "react-icons/io";
 
@@ -7,7 +7,22 @@ import { NAV_LINKS } from "./data";
 import { HiMail } from "react-icons/hi";
 import { BsFacebook } from "react-icons/bs";
 
+const navigationBarAdjustment = () => {
+  const navigationHeight = document.querySelector(".navbar")?.offsetHeight;
+  console.log({ navigationHeight });
+
+  if (navigationHeight > 0 && document.documentElement.setProperty)
+    document.documentElement?.setProperty(
+      "--scroll-padding",
+      navigationHeight + "px"
+    );
+};
+
 export const Nav = () => {
+  useEffect(() => {
+    navigationBarAdjustment();
+  });
+
   return (
     <div id="nav" className="navbar">
       <div>
